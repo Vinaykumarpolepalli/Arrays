@@ -10,11 +10,12 @@ public class Sortorder {
 		for(int j = i+1;j<num.length;j++) {
 			if(num[j]<num[max]) {
 				max=j;
+				
 			}
-		
-				temp=num[i];
-				num[i]=num[max];
-				num[max]=temp;
+			temp=num[i];
+			num[i]=num[max];
+			num[max]=temp;
+				
 		}
 	}
 		
